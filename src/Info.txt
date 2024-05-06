@@ -1,0 +1,5 @@
+In this repository I aim to:
+    1) Store a wealth of algorithms for my own reference and usage
+    2) Analyze the different algorithms for practice
+    3) To display my experience with different algorithms and problems
+    4) Iterative and recursive versions if applicable
