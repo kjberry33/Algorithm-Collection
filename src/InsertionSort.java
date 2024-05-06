@@ -5,12 +5,12 @@ public class InsertionSort {
         The sample data set is: {1.69, 96.07, 0.005, 12, 35, 11.11, 12.05}
         """);
         double[] data={1.69, 96.07, 0.005, 12, 35, 11.11, 12.05};
-        InsertionSort Test=new InsertionSort(data);
-    }
-    InsertionSort(double[] data){
-        data=inSort(data);
+        InsertionSort Test=new InsertionSort();
         System.out.print("The sorted data set is: ");
-        printArray(data);
+        Test.printArray(Test.inSort(data));
+    }
+    InsertionSort(){
+        //default constructor
     }
     double[] inSort(double[] data){
         for(int i=0;i< data.length;i++){

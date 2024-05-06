@@ -8,44 +8,44 @@ public class StringMatching {
                  To the Extraordinary.
                   
                   You can be in an ordinary role, but what makes you 'extraordinary' is what you do in your daily job to
-                  drive improvement, make a difference that matters, contribute towards excellence, and inspire everyone 
+                  drive improvement, make a difference that matters, contribute towards excellence, and inspire everyone
                   around you by creating an example with yourself to be followed.
                   
-                  It is not always easy, as no one will give you recognition, or promotion, or a word of encouragement. 
-                  However you know you surpassed all of that, after all, the hardest competitor we ever have in our 
-                  lives is truly ourselves, surpassing the standards that we established for ourselves in past, making 
-                  little improvements in the processes that we set, finding ways to make differences in what everyone 
+                  It is not always easy, as no one will give you recognition, or promotion, or a word of encouragement.
+                  However you know you surpassed all of that, after all, the hardest competitor we ever have in our
+                  lives is truly ourselves, surpassing the standards that we established for ourselves in past, making
+                  little improvements in the processes that we set, finding ways to make differences in what everyone
                   else does.
                   
-                  Everyone looks at you, wondering why they never ever thought of that simple little idea (or never had 
-                  the courage to do it), or how come they could not do what you do at your age, or within certain 
-                  timeframe (and yet you are open to constructive feedback from those who never did it themselves) and 
-                  continue to strive for improvements. You should know that your work is outstanding, and you need no 
+                  Everyone looks at you, wondering why they never ever thought of that simple little idea (or never had
+                  the courage to do it), or how come they could not do what you do at your age, or within certain
+                  timeframe (and yet you are open to constructive feedback from those who never did it themselves) and
+                  continue to strive for improvements. You should know that your work is outstanding, and you need no
                   one's confirmation or recognition to be extraordinary.
                   
-                  You can make a difference all the way from frontline to the back office operations, as a sales rep 
-                  facing the customers every single day, every single hour, how the work you do differentiates you 
-                  from rest of the sales reps (competition) who visit the same customers you visit. And, at the back 
-                  office, what makes a difference is the fantastic operational support you provide, or the customer 
-                  service, or how do the processes you deploy and improve everyday, how they enhance efficiency, and 
+                  You can make a difference all the way from frontline to the back office operations, as a sales rep
+                  facing the customers every single day, every single hour, how the work you do differentiates you
+                  from rest of the sales reps (competition) who visit the same customers you visit. And, at the back
+                  office, what makes a difference is the fantastic operational support you provide, or the customer
+                  service, or how do the processes you deploy and improve everyday, how they enhance efficiency, and
                   how all that reflects through a chain-reaction to the frontline.
                   
-                  When you are at a middle management level, you carry a very important mission of being that bridge 
-                  between the executive management and the field staff. With this objective, you can develop those who 
+                  When you are at a middle management level, you carry a very important mission of being that bridge
+                  between the executive management and the field staff. With this objective, you can develop those who
                   are good to be extraordinary as well.
                   
-                  Lastly, as senior leaders, the expectation from you is even higher as you are in no ordinary role in 
-                  the first place, you should be expected to perform at extraordinary levels at all times. You need to 
-                  have a grasp of knowledge and details in order to come up with vision and strategy. You need to 
-                  constantly think how you can lead by example, inspire everyone you lead, and win the war against your 
-                  competition, and create new opportunities for your company. I remembered a VP from my previous pharma 
-                  company as a role model, who used to lead the entire APAC Regional Marketing Team, he was extremely 
-                  impressive, he may not know every single answer and detail, but he always listened, analyzed, 
-                  reasoned, and gave directions. He also took every effort to have team meetings every month, and gave 
-                  everyone feedback despite the little time he had together. He inspired me and everyone else in the 
+                  Lastly, as senior leaders, the expectation from you is even higher as you are in no ordinary role in
+                  the first place, you should be expected to perform at extraordinary levels at all times. You need to
+                  have a grasp of knowledge and details in order to come up with vision and strategy. You need to
+                  constantly think how you can lead by example, inspire everyone you lead, and win the war against your
+                  competition, and create new opportunities for your company. I remembered a VP from my previous pharma
+                  company as a role model, who used to lead the entire APAC Regional Marketing Team, he was extremely
+                  impressive, he may not know every single answer and detail, but he always listened, analyzed,
+                  reasoned, and gave directions. He also took every effort to have team meetings every month, and gave
+                  everyone feedback despite the little time he had together. He inspired me and everyone else in the
                   team to be the best in whatever we were responsible for, and contribute towards a common larger goal.
                   
-                  Strive for Excellence and achieve greatness. If you want to work on something, you should always do 
+                  Strive for Excellence and achieve greatness. If you want to work on something, you should always do
                   your very best. You should expect nothing less than extraordinary from yourself.
                   
                   -Lim Yi Hui
@@ -118,7 +118,7 @@ public class StringMatching {
                 break;
             }
         }
-        if(found==false){
+        if(!found){
             System.out.println("The keyword is NOT found in the text.");
         }
     }
@@ -136,7 +136,7 @@ public class StringMatching {
                 found=true;
             }
         }
-        if(found==false){
+        if(!found){
             System.out.println("The keyword is NOT found in the text.");
         }
     }

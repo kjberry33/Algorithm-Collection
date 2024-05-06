@@ -19,7 +19,7 @@ public class InterpolationSearch {
         int right=data.length-1;
         boolean found=false;
         while(target>=data[left] && target<=data[right] && left<=right) {
-            int mid= (int) (left + (right - left) * (target - data[left]) / (data[right] - data[left]));;
+            int mid= (int) (left + (right - left) * (target - data[left]) / (data[right] - data[left]));
             if (data[mid] == target) {
                 System.out.print("Target "+data[mid]+" is in the data set!");
                 found=true;
@@ -30,7 +30,7 @@ public class InterpolationSearch {
                 right=mid-1;
             }
         }
-        if(found==false) {
+        if(!found) {
             System.out.print("Target is not found in the data set!");
         }
     }

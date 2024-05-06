@@ -23,7 +23,7 @@ public class SequentialSearch {
                 break;
             }
         }
-        if(found==false){
+        if(!found){
             System.out.println("Target "+target+" not found in the data set.");
         }
     }

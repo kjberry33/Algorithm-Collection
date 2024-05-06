@@ -5,12 +5,12 @@ public class SelectionSort {
         The sample data set is: {1.69, 96.07, 0.005, 12, 35, 11.11, 12.05}
         """);
         double[] data={1.69, 96.07, 0.005, 12, 35, 11.11, 12.05};
-        SelectionSort Test=new SelectionSort(data);
-    }
-    SelectionSort(double[] data){
-        data=selSort(data);
+        SelectionSort Test=new SelectionSort();
         System.out.print("The sorted data set is: ");
-        printArray(data);
+        Test.printArray(Test.selSort(data));
+    }
+    SelectionSort(){
+        //default constructor
     }
     double[] selSort(double[] data){
         for(int i=0;i< data.length;i++){

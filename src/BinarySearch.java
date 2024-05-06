@@ -31,7 +31,7 @@ public class BinarySearch {
                 right=mid-1;
             }
         }
-        if(found==false) {
+        if(!found) {
             System.out.print("Target is not found in the data set!");
         }
     }
