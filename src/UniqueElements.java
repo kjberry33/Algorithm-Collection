@@ -1,4 +1,4 @@
-//array implementation, iterative
+//array implementation, iterative, utilizes Array package
 import java.util.ArrayList;
 import java.util.Arrays;
 public class UniqueElements {
