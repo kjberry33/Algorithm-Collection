@@ -1,6 +1,6 @@
 # Algorithm Reference Repository
 
-Welcome to the Algorithm Repository! This repository is a collection of algorithms across various domains, organized for future reference and practice. Whether you’re a student, a professional developer, or just a coding enthusiast, this repository aims to provide valuable resources and practice opportunities.
+Welcome to the Algorithm Repository! This repository is a collection of algorithms across various domains, organized for future reference and practice. Whether you’re a student, a professional developer, or just a coding enthusiast, this repository aims to provide valuable resources and practice opportunities. All the examples are encoded entirely in Java!
 
 ## Contents
 
